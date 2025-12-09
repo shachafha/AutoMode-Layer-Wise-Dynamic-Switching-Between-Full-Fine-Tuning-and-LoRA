@@ -37,7 +37,7 @@ Standard PEFT methods apply a static adaptation scheme (e.g., LoRA on all layers
 We evaluated AutoMode against Full Fine-Tuning, Standard LoRA, and static baselines (BitFit, Top-K) across GLUE classification tasks and the GSM8K reasoning benchmark.
 
 ### GLUE Benchmark Summary
-*AutoMode Configuration: u=6, t=10 | LoRA: r=16, $\alpha$=32* 
+*AutoMode Configuration: u=6, t=10 | LoRA: r=16, $\alpha$=32 * 
 
 | Model | Strategy | MRPC (F1) | QNLI (Acc) | RTE (Acc) | SST-2 (Acc) | Avg Time (s) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
