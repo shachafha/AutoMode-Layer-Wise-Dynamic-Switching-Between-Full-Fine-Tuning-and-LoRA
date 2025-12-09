@@ -61,13 +61,13 @@ AutoMode does not follow a fixed schedule. It adapts to the difficulty of the ta
 * **High-Resource Tasks (SST-2, QNLI):** The model rapidly "prunes" capacity, freezing most layers early.
 * **Reasoning Tasks (GSM8K):** The model retains high capacity deep in the network for longer durations.
 
-![Dynamic Pruning Behavior](images/dynamic_pruning_placeholder.png)
+![Dynamic Pruning Behavior](images/dynamic_pruning_behavior.png)
 
 ### 2. Layer Importance Heatmap
 Which layers actually matter? AutoMode reveals that importance is task-dependent
 * **BERT/DistilBERT:** Focus on middle layers.
 * **Gemma-2B (Reasoning):** Importance is concentrated exclusively in the deep layers (13-19).
 
-![Layer Importance Heatmap](images/layer_importance_placeholder.png)
+![Layer Importance Heatmap](images/layer_importance.png)
 
 ---
