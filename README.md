@@ -13,6 +13,8 @@ Instead of treating all layers equally, AutoMode continuously monitors gradient 
 * **Faster Training:** Reduces training time by **39.1%** compared to Full Fine-Tuning and **12.2%** compared to standard LoRA.
 * **Reasoning Capabilities:** Achieved **35.7%** accuracy on GSM8K (Gemma-2B), significantly outperforming standard LoRA (29.2%) and Full Fine-Tuning (26.5%).
 
+**Contributors: Shachaf Rispler, Ayush Verma, and Arya Rohit Shidore**, Department of Computer Science, Columbia University
+
 ---
 
 ## 🧠 Methodology
